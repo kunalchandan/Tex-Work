@@ -1,0 +1,55 @@
+\documentclass[letter,12pt]{article}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+\pgfplotsset{newest=compat}
+\pagestyle{empty}
+\pgfplotsset{compat=1.15}
+\begin{document}
+
+\title{Pendulum Lab Report}
+\date{2018-04-18}
+\author{Kunal Chandan}
+
+\maketitle
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+The goal of the lab is to examine the realtionsip between the time taken for a pendulum to complete one full swing and the length of the string upon which the mass hangs.
+First raw data will be gathered and plotted to identify any linear relationship. if no such relationship is found, then a log-log plot of the data will be made to identify the degree of the function from the slope of the new line of best fit.
+
+%%%%%%%%%%%%%%%%%%% Graph of 
+\begin{tikzpicture}
+	\begin{semilogyaxis}[
+		xlabel=Index,ylabel=Value]
+
+	\addplot[color=blue,mark=*] coordinates {
+		(1,8)
+		(2,16)
+		(3,32)
+		(4,64)
+		(5,128)
+		(6,256)
+		(7,512)
+	};
+
+	\addplot table [ y={create col/linear regression={y=Y}}, ] {
+		X Y
+		1 8
+		2 16
+		3 32
+		4 64
+		5 128
+		6 256
+		7 512
+	};
+	\addlegendentry {$y(x)$}
+	\addlegendentry{%
+		$\pgfmathprintnumber{\pgfplotstableregressiona} \cdot x
+		\pgfmathprintnumber[print sign]{\pgfplotstableregressionb}$}
+	\end{semilogyaxis}%
+\end{tikzpicture}%
+\end{document}
+

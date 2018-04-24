@@ -1,0 +1,6 @@
+Table 1: Experimental values of length of string L versus DELTA T or time taken to complete 1 swing. Mass attached to the end of the pendulum system remained the same through all trials at XXXg.
+Figure 1: Scatterplot of string length L versus time taken to complete 1 full swing DELTA T.
+Table 2: Log base 10 of the string length L versus time taken to complete 1 full swing DELTA T. Slope of the line of best fit yields the N value of the formula T = kl^n. 
+Figure 2: Log values of L and DELTA T plotted with a line of best fit yielding the degree of the function T = kl^n where T is time taken and L is the variable length of the string.
+Table 3: Length of string^n where n is the approximate degree relation to the time taken to complete 1 full swing.
+Figure 3: Plot of values from table 3; yeilds linearized graph of values.

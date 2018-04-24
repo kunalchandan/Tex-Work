@@ -1,0 +1,56 @@
+\documentclass[letter,12pt]{article}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+\pgfplotsset{newest=compat}
+\pagestyle{empty}
+\pgfplotsset{compat=1.15}
+\begin{document}
+
+\title{Pre-lab}
+\date{2018-04-18}
+\author{Kunal Chandan}
+
+\maketitle
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+Prelab; generate table for dependant and independant values
+
+
+
+%%%%%%%%%%%%%%%%%%% Graph of semiLog
+\begin{tikzpicture}
+	\begin{semilogyaxis}[
+		xlabel=Index,ylabel=Value]
+
+	\addplot[color=blue,mark=*] coordinates {
+		(1,8)
+		(2,16)
+		(3,32)
+		(4,64)
+		(5,128)
+		(6,256)
+		(7,512)
+	};
+
+	\addplot table [ y={create col/linear regression={y=Y}}, ] {
+		X Y
+		1 8
+		2 16
+		3 32
+		4 64
+		5 128
+		6 256
+		7 512
+	};
+	\addlegendentry {$h(x)$}
+	\addlegendentry{%
+		$\pgfmathprintnumber{\pgfplotstableregressiona} \cdot x
+		\pgfmathprintnumber[print sign]{\pgfplotstableregressionb}$}
+	\end{semilogyaxis}%
+\end{tikzpicture}%
+\end{document}
+
