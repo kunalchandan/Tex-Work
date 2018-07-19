@@ -1,0 +1,19 @@
+\documentclass{letter}
+\usepackage{pst-poly}
+\usepackage{forloop}
+\providecommand{\PstPolygonNode}{%
+ \psdots[dotscale=1](1;\INode)
+ \multido{\iA=0+1}{\INode}{%
+   \multido{\iB=\iA+1}{\numexpr\INode-\iA+1\relax}{% 
+     \psline[linecolor=red!50](1;\iA)(1;\iB)}}}
+\begin{document}
+
+\psset{unit=3,linewidth=0.1pt}
+
+\newcounter{lol}
+\forloop{lol}{3}{\value{lol} < 22}{%
+\PstPolygon[PolyNbSides=\value{lol}]
+\arabic{lol}
+\qquad
+}
+\end{document}

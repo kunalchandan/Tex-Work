@@ -1,0 +1,296 @@
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.5.24)  28 MAY 2018 02:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**connect.tex
+(./connect.tex
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 7 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/letter.cls
+Document Class: letter 2014/09/29 v1.2z Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\longindentation=\dimen102
+\indentedwidth=\dimen103
+\labelcount=\count79
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-poly/pst-poly.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2017/03/17 v0.63 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count80
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count81
+\pstFP@xia=\count82
+\pstFP@xib=\count83
+\pstFP@xfa=\count84
+\pstFP@xfb=\count85
+\pstFP@rega=\count86
+\pstFP@regb=\count87
+\pstFP@regs=\count88
+\pstFP@times=\count89
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen104
+\pgfutil@tempdimb=\dimen105
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks19
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen106
+\pgf@xa=\dimen107
+\pgf@xb=\dimen108
+\pgf@xc=\dimen109
+\pgf@y=\dimen110
+\pgf@ya=\dimen111
+\pgf@yb=\dimen112
+\pgf@yc=\dimen113
+\c@pgf@counta=\count90
+\c@pgf@countb=\count91
+\c@pgf@countc=\count92
+\c@pgf@countd=\count93
+\pgfutil@tempcnta=\count94
+\pgfutil@tempcntb=\count95
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen114
+\pgfmath@count=\count96
+\pgfmath@box=\box26
+\pgfmath@toks=\toks20
+\pgfmath@stack@operand=\toks21
+\pgfmath@stack@operation=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count97
+))
+\pgffor@iter=\dimen115
+\pgffor@skip=\dimen116
+\pgffor@stack=\toks23
+\pgffor@toks=\toks24
+)
+\psLoopIndex=\count98
+
+`PSTricks' v2.74  <2017/06/15> (tvz)
+\pst@dima=\dimen117
+\pst@dimb=\dimen118
+\pst@dimc=\dimen119
+\pst@dimd=\dimen120
+\pst@dimg=\dimen121
+\pst@dimh=\dimen122
+\pst@dimm=\dimen123
+\pst@dimn=\dimen124
+\pst@dimo=\dimen125
+\pst@dimp=\dimen126
+\pst@hbox=\box27
+\pst@ibox=\box28
+\pst@boxg=\box29
+\pst@cnta=\count99
+\pst@cntb=\count100
+\pst@cntc=\count101
+\pst@cntd=\count102
+\pst@cntg=\count103
+\pst@cnth=\count104
+\pst@cntm=\count105
+\pst@cntn=\count106
+\pst@cnto=\count107
+\pst@cntp=\count108
+\@zero=\count109
+\pst@toks=\toks25
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg))
+\psunit=\dimen127
+\psxunit=\dimen128
+\psyunit=\dimen129
+\pst@C@@rType=\count110
+\pslinewidth=\dimen130
+\psk@startLW=\dimen131
+\psk@endLW=\dimen132
+\pst@customdefs=\toks26
+\pslinearc=\dimen133
+\pst@symbolStep=\dimen134
+\pst@symbolWidth=\dimen135
+\pst@symbolLinewidth=\dimen136
+\everypsbox=\toks27
+\psframesep=\dimen137
+\pslabelsep=\dimen138
+\sh@wgridXunit=\dimen139
+\sh@wgridYunit=\dimen140
+\pst@shift=\dimen141
+
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
+Using PSTricks configuration for XeTeX+xdvipdfmx
+)))
+File: pstricks.tex 2017/06/15 v2.74 `PSTricks' (tvz,hv)
+ (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2017/06/15 v2.74 `PST-fp' (hv)
+)
+Package: pst-poly 2009/12/20 package wrapper for pst-poly.tex (dg,hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-poly/pst-poly.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.39, 2017/01/20
+\psrow=\count111
+\pscol=\count112
+\psmatrixcnt=\count113
+\psrowsep=\skip41
+\pscolsep=\skip42
+\pst@args=\count114
+\num@pts=\count115
+\pst@argcnt=\count116
+)
+(/usr/share/texlive/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count117
+\multidocount=\count118
+\multido@stuff=\toks28
+) `PST-Polygon' v1.63, 2014/08/28 (DG/hv)
+\PstPoly@IntermediatePointDim=\dimen142
+)
+File: pst-poly.tex 2014/08/28 v1.63 `PST-poly' (dg,hv)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty
+Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)) (./connect.aux)
+\openout1 = `connect.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+\c@lol=\count119
+
+Overfull \hbox (28.65292pt too wide) in paragraph at lines 18--19
+[][]\TU/lmr/m/n/10 3  []4
+ []
+
+
+Overfull \hbox (28.65292pt too wide) in paragraph at lines 18--19
+[]\TU/lmr/m/n/10 5  []6
+ []
+
+
+Overfull \hbox (28.65292pt too wide) in paragraph at lines 18--19
+[]\TU/lmr/m/n/10 7  []8
+ []
+
+
+Overfull \hbox (33.65292pt too wide) in paragraph at lines 18--19
+[]\TU/lmr/m/n/10 9  []10
+ []
+
+
+Overfull \hbox (38.65292pt too wide) in paragraph at lines 18--19
+[]\TU/lmr/m/n/10 11  []12
+ []
+
+
+Overfull \hbox (38.65292pt too wide) in paragraph at lines 18--19
+[]\TU/lmr/m/n/10 13  []14
+ []
+
+
+Overfull \hbox (38.65292pt too wide) in paragraph at lines 18--19
+[]\TU/lmr/m/n/10 15  []16
+ []
+
+
+Overfull \hbox (38.65292pt too wide) in paragraph at lines 18--19
+[]\TU/lmr/m/n/10 17  []18
+ []
+
+
+Overfull \hbox (38.65292pt too wide) in paragraph at lines 18--19
+[]\TU/lmr/m/n/10 19  []20
+ []
+
+[1
+
+] [2] [3] [4] (./connect.aux) ) 
+Here is how much of TeX's memory you used:
+ 8127 strings out of 494947
+ 145324 string characters out of 6177099
+ 4242970 words of memory out of 5000000
+ 11934 multiletter control sequences out of 15000+600000
+ 3648 words of font info for 15 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 43i,5n,71p,617b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on connect.pdf (4 pages).
