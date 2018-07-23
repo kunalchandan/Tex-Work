@@ -21,7 +21,7 @@
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{lightgray}{HTML}{999999}
 
-\definecolor{green}{HTML}{C2E15F}
+\definecolor{green}{HTML}{AAD608}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
@@ -92,11 +92,12 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \thinfont%
   \color{white}%
 }
-
+%%% Don't change this number unless you figure it out later
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
+    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3.1cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
+%%% The First number changes the size of my name, NOt sure about the second one yet
       \fontsize{40pt}{72pt}\color{header}%
       {\thinfont #1}{\bodyfont  #2}
     };
@@ -105,7 +106,9 @@ BoldItalicFont=texgyreheros-bolditalic.otf
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.5cm}
+%%% This value changes distance from header to body
+  \vspace{.8cm}
+%%% Not yet sure about this one
   \vspace{-2\parskip}
 }
 
@@ -164,7 +167,8 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
+%%% This value changes the width alotted to information in each list section
+  #1&\parbox[t]{13.7cm}{%
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
@@ -177,14 +181,19 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 %%%%%%%%%%%%%%
 
 \RequirePackage[absolute,overlay]{textpos}
+%%%%%%% Moves left block left->right
 \setlength{\TPHorizModule}{1cm}
-\setlength{\TPVertModule}{1cm}
+%%%%%%% Moves left block up->down
+\setlength{\TPVertModule}{.7cm}
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.6}(1.5, 4.33)
+%%%% The first  value changes right margin 
+%%%% The second value changes margin from the left
+%%%% The third  value changes height or something
+  \begin{textblock}{3.6}(0.4, 4.33)
   \begin{flushright}
   \obeycr
 }{%
@@ -306,6 +315,8 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 %%%%%%%%%%%%%%%%
 % Other tweaks %
 %%%%%%%%%%%%%%%%
-
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+%%% The first  value changes margin of right side stuff to the left block
+%%% The second value changes margin of all main text to top? 
+%%% The third  value changes margin of text to edge of paper
+\RequirePackage[left=4.6cm,top=1.8cm,right=1.0cm,bottom=2.0cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
