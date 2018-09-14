@@ -1,4 +1,4 @@
-\ProvidesClass{chandan-cv}[2018/02/16 CV class]
+\ProvidesClass{chandan-cv}[2018/09/20 CV class]
 \NeedsTeXFormat{LaTeX2e}
 
 \DeclareOption{print}{\def\@cv@print{}}
@@ -97,7 +97,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3.1cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
-%%% The First number changes the size of my name, NOt sure about the second one yet
+%%% The First number changes the size of my name, Not sure about the second one yet
       \fontsize{40pt}{72pt}\color{header}%
       {\thinfont #1}{\bodyfont  #2}
     };
@@ -107,7 +107,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     };
   \end{tikzpicture}
 %%% This value changes distance from header to body
-  \vspace{.8cm}
+  \vspace{1.2cm}
 %%% Not yet sure about this one
   \vspace{-2\parskip}
 }
@@ -171,7 +171,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   #1&\parbox[t]{13.7cm}{%
     \textbf{#2}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%This number sets the light gray text on the right
     #4\vspace{\parsep}%
   }\\}
 
@@ -182,13 +182,13 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 \RequirePackage[absolute,overlay]{textpos}
 %%%%%%% Moves left block left->right
-\setlength{\TPHorizModule}{1cm}
+\setlength{\TPHorizModule}{1.1cm}
 %%%%%%% Moves left block up->down
-\setlength{\TPVertModule}{.7cm}
+\setlength{\TPVertModule}{1cm}
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
+    \par\vspace{0.5\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
 %%%% The first  value changes right margin 
 %%%% The second value changes margin from the left
