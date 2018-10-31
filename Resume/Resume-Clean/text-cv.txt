@@ -1,0 +1,80 @@
+Kunal Chandan
+Computer Engineering Candidate
+kunalchandan.github.io
+kchandan@uwaterloo.ca
+647-785-1313
+github.com/kunalchandan
+linkedin.com/in/kunal-chandan
+LANGUAGES
+• Java
+– LWJGL
+• Python
+– OpenCV
+– Selenium
+– Pandas
+– MatPlotLib
+– Numpy
+• Octave/MATLAB
+– PsychToolbox
+• HTML & JavaScript
+– P5.js
+• LaTeX & XeLaTeX
+– Tikz
+• SQL
+• C/C++
+SKILLS
+• Linux
+• Unix System Admin.
+• Git
+• Research
+• QA
+• SEO
+• Web Analytics
+• Database Management
+SUMMARY OF QUALIFICATIONS
+• 4 years of programming experience in Java
+• Extensive experience with Linux operating systems
+• Strong leadership experince exemplified through varous executive positions
+• Excellent AI research experience from prior internships at York U & Kindred.ai
+EXPERIENCE
+RESEARCH INTERN | ELDER LAB, YORK UNIVERSITY
+June 2017 - June 2018 | Toronto, ON
+• Computer Vision, Machine Learning, and Psychophysics
+• Created 2 novel psychophysics experiments using MATLAB with PsychToolbox
+• Conducted data augmentation, visualization, interpretation using Python,
+OpenCV, MatPlotLib for experimental data
+• Designing methods to gather data using Amazon Mechanical Turk
+ROBOT PILOT | KINDRED.AI
+June 2018 - July 2018 | Toronto, ON
+• Piloted in-production Robots & conducted QA and testing of 3 new robots
+• Made hardware modifications for AI research and control system optimization
+ENGINEERING LEAD | FIRST TEAM 6632, SUPREME ROBOTICS
+Sept. 2017 - June 2018 | Toronto, ON
+• Lead and coordinated Supreme Robotics’ build team
+• Designed and programmed autonomous robot mode
+LEAD MENTOR | NORTHVIEW HEIGHTS SECONDARY SCHOOL
+Jan. 2018 - March 2018 | Toronto, ON
+• Mentored Northview’s Co-Ed and All-girls programming teams
+• Taught file & user IO, recursion, graph theory and procedural programming
+CLUBS
+2018 Engineering Society Rep.
+2018 Waterloop Electrical Member
+2018 FIRST Robotics Engineering Lead
+2017 Programming Club Founder
+2017 DECA Chapter Executive
+PROJECTS
+GITHUB.COM/KUNALCHANDAN
+Personal programming projects, highlights include:
+• Game Engine written from scratch using OpenGL Java bindings (LWJGL)
+• Multi-expression Command Line Calculator
+• Resume written with XeLaTeX
+• Webcrawlers for data collection from various websites environments.
+PERSONAL WEBSITE | KUNALCHANDAN.GITHUB.IO
+• Various JavaScript applets, web-toys, and 3D Modeling/Rendering
+AWARDS
+2018 Jim McQueen Award For Excellence in Education
+2018 Co-op Award for Outstanding Achievement
+2018 University of Toronto National Biology Competition 78th in Canada
+2017 Canadian Computing Competition 1st Northview
+2017 Educational Computing Organization of Ontario Round 2 Finalist
+2017 Toronto Finalist for Robotics and Control Systems
