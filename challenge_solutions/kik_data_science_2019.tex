@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{color}
+\usepackage{listings}
+
+\begin{document}
+\huge
+ $$\sum_{n=1}^{\infty} 
+\left(n\left(\left(\frac{7}{8}\right)^{n-1} - 
+\left(\frac{7}{8}\right)^{n}\right)\right) = 8$$
+
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\begin{lstlisting}
+import numpy as np
+max = 100000
+occurances = np.count_nonzero(np.random.randint(low=1, high=9, size=max) == 2)
+average_distance = (max - occurances)/occurances + 1
+print(average_distance)
+\end{lstlisting}
+
+\end{document}
