@@ -5,8 +5,8 @@
 \begin{document}
 \huge
  $$\sum_{n=1}^{\infty} 
-\left(n\left(\left(\frac{7}{8}\right)^{n-1} - 
-\left(\frac{7}{8}\right)^{n}\right)\right) = 8$$
+\left(n\left(\left(\frac{5}{8}\right)^{n-1} - 
+\left(\frac{5}{8}\right)^{n}\right)\right) = \frac{8}{3} = 2.\overline{4}$$
 
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
@@ -32,8 +32,10 @@
 
 \begin{lstlisting}
 import numpy as np
+
 max = 100000
-occurances = np.count_nonzero(np.random.randint(low=1, high=9, size=max) == 2)
+sample = np.random.randint(low=1, high=9, size=max)
+occurances = np.count_nonzero(np.logical_or(np.logical_or(sample == 4, sample == 6), sample == 8))
 average_distance = (max - occurances)/occurances + 1
 print(average_distance)
 \end{lstlisting}
