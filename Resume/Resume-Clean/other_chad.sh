@@ -1,1 +1,1 @@
-xelatex -interaction=nonstopmode chandan.tex; cp chandan.pdf /mnt/c/Users/Kunal\ Chandan/Pictures/
+xelatex -interaction=nonstopmode chandan.tex; cp chandan.pdf /mnt/c/Users/klans/Pictures/
