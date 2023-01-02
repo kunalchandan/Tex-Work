@@ -1,5 +1,5 @@
 % Intro Options
-\ProvidesClass{deedy-resume-openfont}[2018/09/16 CV class]
+\ProvidesClass{chandan-cv}[2018/09/16 CV class]
 \NeedsTeXFormat{LaTeX2e}
 \DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{%
@@ -25,8 +25,8 @@
 
 % Set main fonts
 \usepackage{fontspec}
-\setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
+\setmainfont[Color=primary,Path=fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text,Path=fonts/raleway/ttf/,ItalicFont=Raleway-ExtraLightItalic]{Raleway-ExtraLight}
 
 % Date command
 \usepackage[absolute]{textpos}
@@ -34,7 +34,7 @@
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
 \newcommand{\lastupdated}{\begin{textblock}{60}(155,5)
-\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
+\color{date}\fontspec[Path = fonts/raleway/ttf/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
 Last Updated on \today
 \end{textblock}}
 
@@ -47,7 +47,7 @@ Last Updated on \today
 } \\[5pt]
 \centering{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
+\fontspec[Path = fonts/raleway/ttf/,ItalicFont=Raleway-ExtraLightItalic]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
 \vspace{-15pt}
 }
@@ -71,11 +71,11 @@ Last Updated on \today
 
 % Descriptors command
 \newcommand{\descript}[1]{
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/ttf/,ItalicFont=Raleway-ExtraLightItalic]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
 
 % Location command
 \newcommand{\location}[1]{
-\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+\color{headings}\raggedright\fontspec[Path = fonts/raleway/ttf/,ItalicFont=Raleway-ExtraLightItalic]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{

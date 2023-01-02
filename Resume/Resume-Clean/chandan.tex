@@ -31,7 +31,7 @@
 \namesection{Kunal}{Chandan}
 {
 	\urlstyle{same}
-	% Honours Electrical Engineering Candidate \\
+	\textit{Honours Electrical Engineering Candidate} \\
 	\href{mailto:kchandan@uwaterloo.ca}{kchandan@uwaterloo.ca} \quad
 	| \quad
 	\href{https://www.linkedin.com/in/kunal-chandan/}{linkedin/kunal-chandan} \quad
@@ -74,38 +74,31 @@
 				\item OpenCV
 				\item Selenium
 			\end{itemize}
-		\item \textbf{Shell}
 		\item \textbf{MATLAB}
 		\item \textbf{SQL}
 		\item \textbf{Verilog}
 		\item \textbf{RISC-V}
-		\item \textbf{LaTeX \& XeLaTeX}
+		\item \textbf{Shell}
+		\item \textbf{LaTeX}
 	\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
+%     Software
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Skills}
+\section{Software}
 	\begin{itemize}
 		\setlength\itemsep{-0.17em}
-		\item \textbf{Linux}
-		\item \textbf{Git}
-		\item \textbf{ADS}
 		\item \textbf{Altium}
 		\item \textbf{Proteus}
 		\item \textbf{LTSpice}
+		\item \textbf{KiCAD}
 		\item \textbf{Quartus Prime}
+		\item \textbf{Cadence}
+		\item \textbf{LayoutEditor}
+		\item \textbf{Linux}
+		\item \textbf{Git}
 	\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Education}
-
-\subsection{University of \\
-Waterloo}
-\descript{4A - B.ASc Electrical Engineering Candidate Class of 2023}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Interests
@@ -114,7 +107,7 @@ Waterloo}
 \begin{itemize}
 	\setlength\itemsep{-0.3em}
     \item Cycling
-	\item Biology
+	\item Rock Climbing
 	\item Juggling
 \end{itemize}
 
@@ -122,9 +115,12 @@ Waterloo}
 %     CLUBS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Clubs}
+Juggling Club \\
+Cycling Club \\
+Rock Climbing Club \\
+IEEE Packaging Soc. \\
 EngPlay Actor \\
 Eng. Ambassador \\
-Eng. Society Rep.\\
 Eng. Orientation Leader
 
 \sectionsep
@@ -158,6 +154,8 @@ Eng. Orientation Leader
 	\item Excellent data pipeline experience in \textbf{Python}, \textbf{SQL}, \& \textbf{Shell} at Robarts, MappedIn, \& OICR 
 	\item Understanding of \textbf{Verilog} \& \textbf{RISC-V} from coursework involving 
 	computer architecture \& hardware design
+	\item Strong electrical hardware design skills at device level fabrication experience and design with Cadence 
+	\item Circuit-board design experience from internship and projects using KiCAD
 \end{tightemize}
 \sectionsep
 
@@ -166,6 +164,19 @@ Eng. Orientation Leader
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+
+\runsubsection{Microfabrication Research Assistant}
+\descript{| \, University of Waterloo}
+\location{Sep 2022 - Present \, | \, Waterloo, ON}
+\begin{tightemize}
+        \item Developed research plan for advanced packaging of $\mu$LEDs onto TFT backplanes
+		\item Developed custom indium electroplating setup and validated fabrication results with SEM
+		% \item ** Developed other characterization setups for LEDs as necessary with Fusion360
+		\item Designed custom PCBs in KiCAD for driving small $\mu$LED displays using STM32 microcontrollers
+		\item Validated flip-chip diebonding results with thermal simulations in MATLAB
+		\item Developed layouts to optimize existing designs for improved mechanical and electrical performance
+\end{tightemize}
+\sectionsep
 
 \runsubsection{Software Developer}
 \descript{| \, Groq Inc.}
@@ -211,17 +222,23 @@ Eng. Orientation Leader
 \end{tightemize}
 \sectionsep
 
-% \runsubsection{Bioinformatician}
-% \descript{| \, Ontario Institute for Cancer Research}
-% \location{Jan 2019 - April 2019 \, | \, Toronto, ON}
-% \begin{tightemize}
-% 	\item Project lead of new statistical analysis tool for all future studies at OICR-GSI
-% 	\item Designed genomics pipelines for visualization, cleaning, and analysis; 
-% 	interfacing with existing \textbf{R}, \textbf{Perl}, and \textbf{Shell} pipelines
-% 	\item Wrote future-proof and extensible code to process big datasets (\textbf{Pandas} + \textbf{Shell})
-% 	% \item Open-sourced project  and version controlled with \textbf{Git}; created extensive documentation
-% \end{tightemize}
-% \sectionsep
+
+\end{minipage}
+
+\newpage
+
+\begin{minipage}[t]{0.77\textwidth}
+\runsubsection{Software Dev. - Bioinformatics}
+\descript{| \, Ontario Institute for Cancer Research}
+\location{Jan 2019 - April 2019 \, | \, Toronto, ON}
+\begin{tightemize}
+	\item Project lead of new statistical analysis tool for all future studies at OICR-GSI
+	\item Designed genomics pipelines for visualization, cleaning, and analysis; 
+	interfacing with existing \textbf{R}, \textbf{Perl}, and \textbf{Shell} pipelines
+	\item Wrote future-proof and extensible code to process big datasets (\textbf{Pandas} + \textbf{Shell})
+	% \item Open-sourced project  and version controlled with \textbf{Git}; created extensive documentation
+\end{tightemize}
+\sectionsep
 
 % \runsubsection{Research Intern}
 % \descript{| \, Elder Lab, York University}
@@ -241,6 +258,28 @@ Eng. Orientation Leader
 
 \section{Projects}
 
+\runsubsection{Pipelined RISC-V Core}
+\descript{ }
+\location{ }
+\begin{tightemize}
+	\item Designed 5-stage pipelined RISC-V 32-bit core in Verilog
+	\item Implemented pipelined datapath and handled control and data hazards to minimize stalling
+	\item Core able to run complete programs and synthesized on FPGA
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Machine Learning Beamforming Hearing-Aid}
+\descript{ }
+\location{ }
+\begin{tightemize}
+	\item Designed analog filters using active circuits for bandpassing human voice
+	\item designed multichannel microphone array to pass analog data over USB-HS on custom PCB designed in KiCAD
+	\item improved ML models for real-time beamforming and voice isolation, inference time improved 5x while maintaining performance
+\end{tightemize}
+\sectionsep
+
+
 \runsubsection{\href{https://github.com/kunalchandan/ToyTracer}{Ray Tracing Engine}}
 \descript{ }
 \location{ }
@@ -248,7 +287,7 @@ Eng. Orientation Leader
 	\item Implemented 3D recursive ray tracing engine for arbitrary materials on spheres in \textbf{Rust}
 	\item Used traits \& modular programming to create extensible scene-object interface
 	\item Used \textbf{nalgebra} for arbitrary rotations \& positions of camera \& objects 
-%	\item Parallel processing of ray-tracing using \textbf{rayon} yielding \textbf{2X} performance speed-up
+	\item Parallel processing of ray-tracing using \textbf{rayon} yielding \textbf{2X} performance speed-up
 \end{tightemize}
 \sectionsep
 
@@ -262,6 +301,24 @@ Eng. Orientation Leader
 \end{tightemize}
 \sectionsep
 
+\runsubsection{\href{https://github.com/kunalchandan/}{Others}}
+\descript{ }
+\location{ }
+\begin{tightemize}
+	\item 2D Lattice-Boltzmann fluid dynamics solver written in \textbf{Rust} using \textbf{Piston}
+	\item WaterlooWorks and OscarPlus (McMaster) job crawler written with \textbf{Selenium}
+	\item Webcrawler for scraping comics from KissComics, circumvented Google Captcha
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+
+\runsubsection{University of Waterloo} \\
+\descript{B.ASc Electrical Engineering Candidate Class of 2023}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RELEVANT COURSES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -270,29 +327,45 @@ Eng. Orientation Leader
 \descript{ }
 \location{ }
 \begin{tightemize}
-        \item Computer Architecture, Electronic Devices, Semiconductor Physics, Analog Control Systems, Radio Frequency \& Microwave Circuits
+        \item Computer Architecture
+		\item Electronic Devices, Semiconductor Physics, Analog/Digital Integrated Circuits
+		\item Analog/Digital Control Systems
+		\item Radio Frequency \& Microwave Circuits
 \end{tightemize}
 \sectionsep
-%\runsubsection{\href{https://github.com/kunalchandan/}{Others}}
-%\descript{ }
-%\location{ }
-%\begin{tightemize}
-%	\item 2D Lattice-Boltzmann fluid dynamics solver written in \textbf{Rust} using \textbf{Piston}
-%	\item WaterlooWorks and OscarPlus (McMaster) job crawler written with \textbf{Selenium}
-%	\item Webcrawler for scraping comics from KissComics, circumvented Google Captcha
-%\end{tightemize}
-%\sectionsep
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %     AWARDS
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \section{Awards}
-% \begin{tabular}{rll}
+\section{Awards}
+\begin{tabular}{rll}
+2022		&	Baylis Medical Capstone Design Award\
 % 2018		&	Co-op Award for Outstanding Achievement\\
 % 2018		&	University of Toronto National Biology Competition 78th in Canada\\
-% \end{tabular}
-% \sectionsep
+\end{tabular}
+\sectionsep
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.20\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Lab Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Lab Skills}
+	\begin{itemize}
+		\setlength\itemsep{-0.2em}
+		\item \textbf{Wire-bonder}
+		\item \textbf{Die-bonder}
+		\item \textbf{Plasma Cleaner/Asher}
+		\item \textbf{Dicing Saw}
+		\item \textbf{HMDS Oven}
+		\item \textbf{Probe Station}
+		\item \textbf{Spincoater}
+		\item \textbf{Wetbench}
+	\end{itemize}
+\end{minipage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
@@ -303,6 +376,4 @@ Eng. Orientation Leader
 %\bibliographystyle{abbrv}
 %\bibliography{publications}
 %\nocite{*}
-
-\end{minipage}
 \end{document}  \documentclass[]{article}

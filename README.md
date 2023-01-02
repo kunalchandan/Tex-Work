@@ -6,4 +6,5 @@ This Repository contains almost all my `latex` work, everything from highschool 
 * [`Cover Letters`](Cover-Letter/)
 * [`Chemistry Lab`](ChemLab2/flow.pdf)
 
-![Image has not Loaded](Resume/Resume-Clean/render.png)
+![Image has not Loaded](Resume/Resume-Clean/render-1.png)
+![Image has not Loaded](Resume/Resume-Clean/render-2.png)
